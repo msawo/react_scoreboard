@@ -1,10 +1,90 @@
-function Application() {
+function Application(props) {
   return (
-    <div>
-      <h1>Hello from React</h1>
-      <p>I was rendered from the Application component!</p>
+    <div className="scoreboard">
+      <div className="header">
+        <h1>{ props.title }</h1>
+      </div>
+      
+      <div className="players">
+        <div className="player">
+          <div className="player-name">
+            Modou Sawo
+          </div>
+          <div className="player-score">
+            <div className="counter">
+              <button className="counter-action decrement"> - </button>
+              <div className="counter-score"> 31 </div>
+              <button className="counter-action increment"> + </button>
+            </div>
+          </div>
+        </div>
+        
+        <div className="player">
+          <div className="player-name">
+            Elon Musk
+          </div>
+          <div className="player-score">
+            <div className="counter">
+              <button className="counter-action decrement"> - </button>
+              <div className="counter-score"> 33 </div>
+              <button className="counter-action increment"> + </button>
+            </div>
+          </div>
+        </div>
+    
+      </div>
     </div>
   );
 }
 
-ReactDOM.render(<Application />, document.getElementById('container'));
+ReactDOM.render(<Application title="My Scoreboard"/>, document.getElementById('container'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
