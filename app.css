@@ -141,6 +141,7 @@ body {
 
   .counter-action.increment {
     background: #66BB6A;
+    transition: background 300ms;
   }
 
   .counter-action.increment:hover {
@@ -150,6 +151,7 @@ body {
 
   .counter-action.decrement {
     background: #ef5350;
+    transition: background 300ms;
   }
 
   .counter-action.decrement:hover {
@@ -218,3 +220,51 @@ body {
     color: #fafafa;
     cursor: pointer;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
